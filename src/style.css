@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+html {
+    background-color: #e4e3ca;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.btn-search {
+    position: relative;
+    right: 50px;
+    height: 38px;
+    width: 48px;
+}
+
+.container-home {
+    margin-top: 40px;
+}
+
+.before-search{
+    width: 100%;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.container-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 45%;
+    border: 1px solid rgb(240, 176, 80);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(243, 242, 224);
+}
+
+.title-item {
+    font-size: 19px;
+    color: orange;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.title-home {
+    font-family: 'Shizuru', cursive;
+    text-align: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.volumenInfo-item {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.main-input {
+    text-align: center;
+
+}
+
+.iconClear {
+    font-size: 10px;
+    position: absolute;
+    left: 26rem;
+    top: 102px;
+}
+
+.button-clear {
+    border-style: none;
+    background-color: inherit;
+    cursor: pointer;
+}
