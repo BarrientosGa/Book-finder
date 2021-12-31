@@ -41,18 +41,18 @@ html {
     margin-top: 40px;
 }
 
-.before-search{
-    width: 100%;
+.p-center{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     font-size: 15px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .container-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
 }
 
 .item {
@@ -98,14 +98,23 @@ html {
 }
 
 .iconClear {
-    font-size: 10px;
+    font-size: 15px;
     position: absolute;
     left: 26rem;
-    top: 102px;
+    top: 74px;
+}
+
+.iconClear:hover {
+    color: grey;
 }
 
 .button-clear {
     border-style: none;
     background-color: inherit;
     cursor: pointer;
+}
+
+.container-input{
+    text-align: center;
+    margin-top: 15px;
 }
